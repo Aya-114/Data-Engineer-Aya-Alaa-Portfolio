@@ -73,8 +73,5 @@ I’m always excited to collaborate, share ideas, or work on projects together.
 All content & code in this repo are © 2025 **Aya Alaa**.
 Feel free to explore and reference, but let’s connect if you’d like to collaborate or use parts of it.
 
----
-
-```
 
 ---
