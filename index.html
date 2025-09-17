@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Data Engineer Aya Alaa Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="icon" type="image/png" href="Screenshot 2025-09-17 205518.png">
+
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Aya Alaa</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#Home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="#about">About</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#projects">Projects</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contactt">Contact Me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#Home" onclick="closeDropdown()">Home</a>
+                <a href="#about" onclick="closeDropdown()">About</a>
+                <a href="#skills" onclick="closeDropdown()">Skills</a>
+                <a href="#services" onclick="closeDropdown()">Services</a>
+                <a href="#projects" onclick="closeDropdown()">Projects</a>
+                <a href="#contactt" onclick="closeDropdown()">Contact Me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="photo_2025-08-22_16-55-21.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Aya Alaa</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">I help businesses grow by transforming their data into actionable insights. From cleaning and structuring raw data to creating clear reports and dashboards, I ensure you have the information you need to make smarter, faster decisions.</p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/Aya-114" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aya-alaa-827303315/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/201270144307?text=Hello%20Aya%2C%20I%27d%20like%20to%20know%20more%20about%20your%20Data%20Engineering%20services" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="https://drive.google.com/file/d/1jTz1cubQugsn8cUSLOuuT2aCsIVXFlnJ/view?usp=sharing" target="_blank">
+                        <button>View Resume</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="about-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p> I'm Aya Alaa, a <b>Data Engineer</b> who helps businesses turn raw data into clear, actionable insights. I specialize in organizing, cleaning, and analyzing data using tools like <b>Python, Pandas, NumPy, MySQL, and Excel</b>, enabling companies to make smarter, faster decisions. </p>
+          <p> I design efficient data pipelines, perform data analysis, and create systems that simplify complex information into usable results. I studied <b>Computer Science at Helwan National University</b>, giving me a strong foundation in programming, algorithms, and databases. </p>
+          <p> I'm passionate about solving real-world problems with data and delivering solutions that make a measurable impact. </p>
+          <div class="about-buttons">
+            <a href="https://drive.google.com/file/d/1jTz1cubQugsn8cUSLOuuT2aCsIVXFlnJ/view?usp=sharing" target="_blank">
+              <button>View Resume</button>
+            </a>
+            <a href="#projects">
+              <button class="alt-btn">View My Projects</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="about-video">
+    <video controls poster="WIN_20250916_16_38_02_Pro.jpg" width="640" height="360">
+  <source src="New Project (4).mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+      <div class="skills-container">
+        <h2 data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
+        
+        <div class="main-skills-grid">
+          <div class="skill-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="skill-icon">
+              <i class="fa-solid fa-broom"></i>
+            </div>
+            <h3>Data Cleaning</h3>
+            <p>Transform messy, incomplete data into clean, structured datasets ready for analysis by removing duplicates, handling missing values, and ensuring data consistency.</p>
+          </div>
+
+          <div class="skill-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="skill-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3>Data Visualization</h3>
+            <p>Create compelling charts, graphs, and dashboards that turn complex data into clear, actionable insights that drive business decisions.</p>
+          </div>
+
+          <div class="skill-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <div class="skill-icon">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <h3>Machine Learning Models</h3>
+            <p>Build and deploy predictive models using advanced algorithms to forecast trends, classify data, and automate decision-making processes.</p>
+          </div>
+
+          <div class="skill-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div class="skill-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3>Database Management</h3>
+            <p>Design, optimize, and maintain databases to ensure efficient data storage, retrieval, and management across various platforms and systems.</p>
+          </div>
+
+          <div class="skill-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="skill-icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <h3>Data Engineering</h3>
+            <p>Build robust data pipelines and infrastructure that efficiently collect, process, and deliver data at scale for enterprise applications.</p>
+          </div>
+
+          <div class="skill-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+            <div class="skill-icon">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <h3>Data Analytics</h3>
+            <p>Extract meaningful patterns and insights from data using statistical methods and analytical techniques to support strategic business decisions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section" id="projects">
+      <div class="projects-container">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Projects</h2>
+        
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+           <a class="project-link" href="https://github.com/Aya-114/Hotel-Arabic-Reviews-Analysis" target="_blank">
+    <div class="project-box">
+        <img src="Hotel Arabic_Reviews_Dataset cover2.png" alt="Project 1">
+        <div class="project-content">
+            <h3>Hotel Arabic Reviews Analysis</h3>
+            <p>Comprehensive analysis of hotel customer reviews, including data cleaning, pattern exploration, and extraction of key words and phrases, providing actionable insights to improve service.</p>
+            <div class="github-link">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</a>
+
+
+              <!-- Project 3 -->
+<a class="project-link" href="https://github.com/Aya-114/Data-Cleaning-And-Visualization-Titanic" target="_blank">
+    <div class="project-box">
+        <img src="Screenshot 2025-09-16 120849.png" alt="Project 3">
+        <div class="project-content">
+            <h3>Data Cleaning & Visualization</h3>
+            <p>A Python-based project for cleaning, preprocessing, and Visualizing datasets. It ensures data quality, handles missing or inconsistent values, and make meaningful Visualization.</p>
+            <div class="github-link">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</a>
+            <!-- Project 5 -->      
+              <a class="project-link" href="https://github.com/Aya-114/-Understand-Customers-with-KMeans-Clustering-in-Python" target="_blank">
+    <div class="project-box">
+        <img src="Screenshot 2025-09-11 205359.png" alt="Project 5">
+        <div class="project-content">
+            <h3>Understand Customers with KMeans Clustering in Python</h3>
+            <p>Developed a customer segmentation model using KMeans for online retail data. Cleaned and preprocessed data with pandas, and applied clustering.</p>
+            <div class="github-link">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</a>
+
+<!-- Project 6 -->
+<a class="project-link" href="https://github.com/Aya-114/Interactive-Dashboard-With-Dash-plotly" target="_blank">
+    <div class="project-box">
+        <img src="Screenshot 2025-09-17 211041.png" alt="Project 6">
+        <div class="project-content">
+            <h3>Interactive Dashboard With Dash / Plotly</h3>
+            <p>This is a Interactive analytics dashboard built with Python Dash and Plotly, can be designed for any businesses. The dashboard transforms complex business data into actionable insights</p>
+            <div class="github-link">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</a>
+          
+  <!-- Project 2 -->
+<a class="project-link" href="https://github.com/Aya-114/DataMasterDB" target="_blank">
+    <div class="project-box">
+        <img src="dbmscover.png" alt="Project 2">
+        <div class="project-content">
+            <h3>Database Management System</h3>
+            <p>A secure DBMS that helps businesses and developers store, manage, and access data efficiently. It supports fast queries, ensures data integrity, and turns datasets into actionable insights.</p>
+            <div class="github-link">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</a>
+          
+     
+          <!-- Project 4 -->
+<a class="project-link" href="https://github.com/yourusername/project4" target="_blank">
+    <div class="project-box">
+        <img src="web-scraping.a16f3e1b.webp" alt="Project 4">
+        <div class="project-content">
+            <h3>Web Scraping & Data Extraction</h3>
+            <p>A Python project that collects data from websites, cleans and organizes it, and prepares it for analysis. Enables extraction of structured insights from unstructured web content efficiently.</p>
+            <div class="github-link">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</a>
+ 
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES SECTION -->
+<section class="services-section" id="services">
+  <div class="services-container">
+    <h2 data-aos="fade-up" data-aos-duration="1000">My Services</h2>
+    
+    <div class="services-grid">
+      <!-- Data Engineering Services -->
+      <div class="service-category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <div class="category-header">
+          <div class="category-icon">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <h3>Data Engineering</h3>
+        </div>
+        <ul class="service-list">
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Data Pipeline Development & Automation</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>ETL/ELT Process Design & Implementation</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Database Design & Optimization</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Data Warehouse Architecture</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Real-time Data Streaming Solutions</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Cloud Data Platform Migration</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Data Analysis Services -->
+      <div class="service-category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div class="category-header">
+          <div class="category-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Data Analysis</h3>
+        </div>
+        <ul class="service-list">
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Business Intelligence & Reporting</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Statistical Analysis & Insights</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Data Visualization & Dashboards</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Performance Metrics & KPI Tracking</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Market Research & Trend Analysis</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Data Quality Assessment & Cleaning</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Data Science Services -->
+      <div class="service-category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <div class="category-header">
+          <div class="category-icon">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3>Data Science</h3>
+        </div>
+        <ul class="service-list">
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Machine Learning Model Development</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Predictive Analytics & Forecasting</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Natural Language Processing (NLP)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Customer Segmentation & Behavior Analysis</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Recommendation Systems</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check-circle"></i>
+            <span>A/B Testing & Experimentation</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-hero" id="contactt">
+        <div class="contact-hero-container">
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Let's Work Together</h1>
+                <p class="subtitle">Ready to transform your data into insights?</p>
+                <p>I'm here to help you unlock the power of your data. Whether you need data pipeline development, analysis, or consulting services, I'm ready to discuss your project and provide solutions that drive results.</p>
+                
+                <div class="contact-methods">
+          <div class="contact-method" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+    <i class="fas fa-envelope"></i>
+    <div class="method-info">
+        <h3>Email</h3>
+        <p><a href="mailto:alaahamed2413@gmail.com">alaahamed2413@gmail.com</a></p>
+    </div>
+</div>
+                    
+                    <div class="contact-method" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="method-info">
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/201270144307?text=Hello%20Aya%2C%20I%27d%20like%20to%20know%20more%20about%20your%20Data%20Engineering%20services" target="_blank">+20 127 014 4307</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="method-info">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/in/aya-alaa-827303315/" target="_blank">Connect with me</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                        <i class="fab fa-github"></i>
+                        <div class="method-info">
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/Aya-114" target="_blank">View my projects</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <h2>Send Me a Message</h2>
+                
+                <div class="success-message" id="successMessage">
+                    <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully. I'll get back to you soon.
+                </div>
+                
+               <form action="https://formsubmit.co/alaahamed2413@gmail.com" method="POST" id="contactForm">
+    <!-- Hidden inputs -->
+    <input type="hidden" name="_subject" value="New contact form submission from portfolio!">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    
+    <div class="form-row">
+        <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="company">Company/Organization</label>
+        <input type="text" id="company" name="company">
+    </div>
+    
+    <div class="form-group">
+        <label for="service">Service Interested In</label>
+        <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option value="data-pipeline">Data Pipeline Development</option>
+            <option value="data-analysis">Data Analysis & Insights</option>
+            <option value="database-design">Database Design & Management</option>
+            <option value="etl-solutions">ETL Solutions</option>
+            <option value="data-cleaning">Data Cleaning & Preprocessing</option>
+            <option value="data-visualization">Data Visualization & Reporting</option>
+            <option value="cloud-engineering">Cloud Data Engineering</option>
+            <option value="consulting">Data Engineering Consulting</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="budget">Project Budget Range</label>
+        <select id="budget" name="budget">
+            <option value="">Select budget range</option>
+            <option value="under-50">Under $50</option>
+            <option value="50-100">$50 - $100</option>
+            <option value="100-200">$100 - $200</option>
+            <option value="200-plus">$200+</option>
+            <option value="discuss">Let's discuss</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Project Details *</label>
+        <textarea id="message" name="message" placeholder="Please describe your project, data challenges, timeline, and any specific requirements..." required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+    </button>
+</form>
+
+<!-- Toast -->
+<div id="toast" class="toast">Thank you! Your form was submitted 🎉</div>
+
+            </div>
+        </div>
+        <!-- Toast -->
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <h3>Aya Alaa</h3>
+                    <p>Data Engineer & Analytics Specialist</p>
+                </div>
+                <!-- Social Media Links -->
+                <div class="footer-social">
+                    <a href="https://khamsat.com/user/aya_alaa_hamed" target="_blank" title="Khamsat">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~01eaa03d7340f0229a" target="_blank" title="Upwork">
+                        <i class="fab fa-upwork"></i>
+                    </a>
+                    <a href="https://mostaql.com/u/your-username" target="_blank" title="Mostaql">
+                        <i class="fas fa-laptop-code"></i>
+                    </a>
+                    <a href="http://www.linkedin.com/in/AyaAlaa-" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/201270144307?text=Hello%20Aya%2C%20I%27d%20like%20to%20know%20more%20about%20your%20Data%20Engineering%20services" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://github.com/Aya-114" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <!-- Divider -->
+                <div class="footer-divider"></div>
+
+                <!-- Copyright -->
+                <div class="footer-copyright">
+                    © 2025 <span>Aya Alaa</span>. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        
+        function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+        
+        function closeDropdown(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+        
+        let lastScrollTop = 0;
+        const navbar = document.querySelector('nav');
+
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > 100) {
+                navbar.classList.add('show');
+            } else {
+                navbar.classList.remove('show');
+            }
+            
+            lastScrollTop = scrollTop;
+        });
+
+        // Form validation
+        const inputs = document.querySelectorAll('input[required], textarea[required]');
+        inputs.forEach(input => {
+            input.addEventListener('blur', function() {
+                if (this.value.trim() === '') {
+                    this.style.borderColor = '#dc3545';
+                } else {
+                    this.style.borderColor = '#28a745';
+                }
+            });
+            
+            input.addEventListener('input', function() {
+                if (this.value.trim() !== '') {
+                    this.style.borderColor = '#28a745';
+                }
+            });
+        });
+
+        const emailInput = document.getElementById('email');
+        if (emailInput) {
+            emailInput.addEventListener('input', function() {
+                const email = this.value;
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                if (emailRegex.test(email)) {
+                    this.style.borderColor = '#28a745';
+                } else if (email.length > 0) {
+                    this.style.borderColor = '#dc3545';
+                }
+            });
+        }
+        const form = document.getElementById("contactForm");
+const toast = document.getElementById("toast");
+
+form.addEventListener("submit", async function(e) {
+  e.preventDefault(); // stop redirect
+
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+    });
+
+    if (response.ok) {
+      showToast("Thank you! Your form was submitted.");
+      form.reset();
+    } else {
+      showToast("Something went wrong. Please try again.");
+    }
+  } catch (error) {
+    showToast("⚠️ Error sending form. Check your connection.");
+  }
+});
+
+function showToast(message) {
+  toast.textContent = message;
+  toast.className = "toast show";
+  setTimeout(() => {
+    toast.className = "toast";
+  }, 3000); // hide after 3s
+}
+
+    </script>
+</body>
+</html>
