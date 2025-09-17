@@ -47,15 +47,14 @@ The portfolio highlights:
 ## 🚀 How to Run Locally  
 
 1. Clone this repository:  
-   ```bash
    git clone https://github.com/Aya-114/portfolio.git
-````
+
 
 2. Navigate into the project:
 
-   ```bash
+
    cd portfolio
-   ```
+   
 
 ---
 
